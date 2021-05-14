@@ -10,7 +10,7 @@
 }
 
 .app{
-    max-height: 100vh;
+    height: 100vh;
 }
 
 .app main{
@@ -18,17 +18,16 @@
     
 }
 
-.app footer{
-    background-color: #282828;
-    height: 90px;
-}
+
 
 main .sidebar{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding:10px;
+    background-color: black;
+    height: calc(100vh - 90px);
+    min-height: 200px;
+    color: white;
+    padding-left: 17px;
+    font-size: 12px;
+    position: relative;
 }
 
 main .content{
@@ -45,12 +44,119 @@ main .content{
     margin: 0 auto;
     background-color: teal;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.down-aside{
-    display: flex;
-    flex-direction: column;
+.down-aside{ 
+   position: absolute;
+   bottom: 10px;
+    vertical-align: middle;
+    width: 80%;
+    background-color: black;
+   
 
     
 }
 
+.example a{
+    
+    border: 3px solid white;
+    
+    margin-right: 30px;
+    border-radius: 50px;
+    color: white;
+    
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    
+  
+}
+
+ .logo{
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+.logotesto{
+    padding-top:5px;
+}
+
+.list-top{
+    padding: 15px 0px;
+}
+
+.list-top img {
+    height: 25px;
+    vertical-align:text-bottom;
+}
+
+.top-aside ul li{
+padding:10px 0px;
+}
+
+
+
+.playlist ul li{
+    margin:15px 0px;
+}
+
+.plus{
+    font-size: 30px;
+    vertical-align: middle;
+    padding: 0px 5px 0px 0px;
+}
+
+.ruleside{
+   width:100%
+}
+
+.user{
+    height: 18px;
+    background-color: lightgray;
+    border-radius: 50px;
+    vertical-align: text-bottom;
+}
+
+.app footer{
+    background-color: #282828;
+    height: 90px;
+    width: 100%;
+    z-index: 1010;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bottom-nav>div{ 
+    border: 1px solid white;
+    
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.leftnav>img{
+    width: 60px;
+}
+
+.white{
+    color: white;
+
+}
+.icon-preference>i{
+    padding:0px 5px 0px 0px
+}
