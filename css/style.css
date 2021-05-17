@@ -93,7 +93,7 @@ h3, h6{
 }
 .album img{
     width: 100%;
-    padding-right: 15px;
+    padding-right: 10px;
     position: relative;
   
 }
@@ -176,7 +176,7 @@ ul{
 }
 
 .list-top{
-    padding: 15px 0px;
+    padding: 12px 0px;
 }
 
 .list-top img {
@@ -185,13 +185,13 @@ ul{
 }
 
 .top-aside ul li{
-padding:10px 0px;
+padding:8px 0px;
 }
 
 
 
 .playlist ul li{
-    margin:15px 0px;
+    margin:8px 0px;
 }
 
 .plus{
@@ -225,10 +225,7 @@ padding:10px 0px;
 }
 
 
-.bottom-nav>div{ 
-    border: 1px solid white;
-    
-}
+
 
 .leftnav{
     display: flex;
