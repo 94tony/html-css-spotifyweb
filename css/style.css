@@ -47,6 +47,27 @@ main .content{
     justify-content: flex-end;
     align-items: center;
 }
+.nav-menu ul {
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+.nav-menu ul li {
+    padding: 20px 10px;
+    
+}
+
+.album{
+    width: calc(100% / 6);
+    display: flex;
+
+}
+.album img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 .down-aside{ 
    position: absolute;
@@ -146,6 +167,7 @@ padding:10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-basis: 230px;
   
 }
 
@@ -160,3 +182,81 @@ padding:10px 0px;
 .icon-preference>i{
     padding:0px 5px 0px 0px
 }
+
+.middlenav{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    display: flex;
+
+}
+.icons-mid div{
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.line-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.line-player div:nth-child(2){
+    border-top: 4px solid white;
+    flex-basis: 5%;
+}
+.line-player div:nth-child(3){
+    border-top: 4px solid lightgray;
+    flex-basis: 45%;
+}
+
+.line-player>div{
+    display: inline-block;
+}
+.line-player div:nth-child(1){
+    margin: 0px 30px;
+}
+
+.line-player div:nth-child(4){
+    margin: 0px 30px;
+}
+
+
+.rightnav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-basis: 230px;
+}
+
+
+.lineplayer-right div:nth-child(1){
+    border-top: 4px solid white;
+    
+    width: 20px;
+    
+}
+
+.lineplayer-right div:nth-child(2){
+    border-top: 4px solid lightgray;
+    
+    width: 50px;
+    
+}
+.lineplayer-right>div{
+    display: inline-block;
+}
+
+.lineplayer-right {
+    display: flex;
+    margin:7px 0px 0px 10px;
+}
+
+
