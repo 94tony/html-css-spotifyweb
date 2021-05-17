@@ -34,7 +34,7 @@ main .content{
     background-color: #141922;
     overflow-y: scroll;
     height: 100%;
-    flex-grow: 1;
+   
 
     
     
@@ -51,34 +51,85 @@ main .content{
 }
 .nav-menu ul {
     display: flex;
-    color: white;
+    color: lightgrey;
     justify-content: center;
+  
     
 }
 .nav-menu ul li {
     padding: 20px 10px;
+   
+   
+    
     
 }
-h3{
+.nav-menu ul li hr{
+    border: 1px green solid;
+    width: 50%;
+    margin-left: 18px;
+    display: none;
+    
+}
+.nav-menu ul li:hover hr{
+    display: block;
+}
+
+.nav-menu ul li:hover{
+    color: white;
+}
+h3, h6{
     margin-left: 20px;
-    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .album{
-    width: calc(100% / 6 - 15px);
+    width: 100%;
     display: flex;
+    padding-left: 20px;
+
+    
    
 
 }
 .album img{
+    width: 100%;
+    padding-right: 15px;
+    position: relative;
   
 }
 
 .title-album{
-  
-  
-    
+  width:calc(100% / 6 - 15px );
+  text-align: center;
+  color:  white;
+ 
+    flex-direction: column;
+    display: flex;
    
+} 
+.cover-img{
+    position: relative;
+}
+.cover-img i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    display: none;
+
+}
+.title-album:hover i{
+    display: block;
+}
+.list-john {
+    margin-top:50px;
+    
+}
+.radius img{
+    border-radius: 50%;
 }
 
 .down-aside{ 
@@ -107,9 +158,13 @@ h3{
     
   
 }
+/* hover */
+.example a:hover {
+    transform: scale(1.2);
+}
 
  .logo{
-    height: 40px;
+    height: 2%;
 }
 
 ul{
